@@ -1,4 +1,4 @@
-// just to show a rough implementation of
+// just to show a rough implementation of how backend actions would look like for all the functionality in MUI table. 
 
 import axios from "axios";
 
