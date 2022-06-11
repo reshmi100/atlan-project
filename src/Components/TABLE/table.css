@@ -1,0 +1,50 @@
+.wrapper {
+    display: inline-block;
+    padding: 5px 0 50px 0;
+    margin:10px 0 0 50px;
+}
+
+.wrapper table {
+    width: 100%;
+    border-style: solid ;
+    border-collapse: collapse;
+    display: block;
+}
+
+.table-content {
+    overflow-y: scroll;
+    border-collapse: collapse;
+    display: block;
+}
+
+th {
+    background-color: #2d4250;
+    color: #fcfcfc;
+}
+
+td {
+    color: #333;
+}
+
+th,
+td {
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    width: 8rem;
+}
+
+.tr {
+    height: 35px;
+    max-height: 35px;
+}
+
+.tr-odd {
+    background-color: #acbebe;
+}
+
+.tr-even {
+    background-color: #fcfcfc;
+}
